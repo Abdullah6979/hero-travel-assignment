@@ -239,6 +239,85 @@ input[type="text"] {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+/* card section start */
+.card-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+}
+
+.card-text {
+    margin-bottom: 24px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-paragraph {
+    margin: 0 auto;
+    margin-bottom: 48px;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-card {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hotel {
+    width: 573px;
+    height: 284px;
+    padding-top: 32px;
+    padding-left: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 50px;
+}
+
+#map {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#price {
+
+    margin-top: 24px;
+
+}
+
+.hotel img {
+    width: 64px;
+    height: 64px;
+}
+
+.hotel-title {}
+
+.hotel-name {
+    padding-top: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-details {
+    width: 486px;
+    padding-top: 16px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* card section end */
+
 /* video section start */
 .video-section {
     display: grid;
@@ -438,10 +517,71 @@ input[type="email"] {
     width: 1440px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+
 }
 
 #footer-nav {
-    border: 2px solid blue;
+    margin: 0 auto;
+    padding-top: 110px;
+
+}
+
+.footer-paragraph-container {
+    margin: 0 auto;
+}
+
+.footer-paragraph {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+
+}
+
+.footer-travel {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-icon ul {
+    display: flex;
+
+}
+
+.footer-icon {
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.footer-icon ul li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.copy-right {
+    margin: 0 auto;
+}
+
+.copy-title {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.footer-break {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 /* footer section end */
