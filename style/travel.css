@@ -327,6 +327,17 @@ input[type="text"] {
     line-height: 26px;
 }
 
+#line-break {
+    margin-left: 3px;
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.sub-img {
+    position: relative;
+}
+
 .sub-img img {
     width: 672px;
     height: 422px;
@@ -339,7 +350,7 @@ input[type="text"] {
 
 }
 
-input[type="text"] {
+input[type="text2"] {
     width: 393px;
     height: 52px;
     margin-top: 24px;
@@ -364,7 +375,7 @@ input[type="email"] {
     font-weight: 400;
 }
 
-#full-name {
+#full {
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
     font-weight: 400;
@@ -383,12 +394,15 @@ input[type="email"] {
 }
 
 .save {
+    position: absolute;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
+    bottom: 58px;
+    right: 16px;
 }
 
 .travel {
@@ -397,6 +411,9 @@ input[type="email"] {
     font-size: 24px;
     font-weight: 400;
     transform: rotate(-19.628deg);
+    padding-top: 56px;
+    margin-left: 100px;
+
 }
 
 .discont {
@@ -405,14 +422,29 @@ input[type="email"] {
     font-size: 32px;
     font-weight: 800;
     transform: rotate(-19.628deg);
+    margin-top: 5px;
+    margin-left: 55px;
 
 }
 
 
 
-/* subscribe section start */
+/* subscribe section end */
 
 /*  main section end */
+
+/* footer section start */
+.footer-container {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#footer-nav {
+    border: 2px solid blue;
+}
+
+/* footer section end */
 
 /* media quary */
 @media screen and (max-width:600px) {
