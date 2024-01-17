@@ -239,6 +239,69 @@ input[type="text"] {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+
+/* destination section start */
+.destination-container {
+    margin-top: 100px;
+}
+
+.destination-text {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    width: 643px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.first-destination {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.second-destination {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 24px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.third-destination {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 24px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.first-destination div img {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+/* destination section end */
+
+
 /* card section start */
 .card-container {
     margin-top: 100px;
